@@ -39,7 +39,11 @@ entry_rep = tkinter.Entry(
 entry_weight = tkinter.Entry(
     font='Arial 12', validate='key', validatecommand=check,
 )
-label_result = tkinter.Label(text='result', font='Arial 12', height=4,)
+label_result = tkinter.Label(
+    text='одноповторный максимум:',
+    font='Arial 12',
+    height=4,
+)
 button_bench = tkinter.Button(
     text='Жим',
     font='Arial 12',

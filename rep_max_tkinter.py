@@ -34,10 +34,14 @@ label_rep = tkinter.Label(
 label_weight = tkinter.Label(text='вес штанги кг', font='Arial 12')
 label_choose = tkinter.Label(text='выберите движение', font='Arial 12')
 entry_rep = tkinter.Entry(
-    font='Arial 12', validate='key', validatecommand=check2,
+    font='Arial 12',
+    validate='key',
+    validatecommand=check2,
 )
 entry_weight = tkinter.Entry(
-    font='Arial 12', validate='key', validatecommand=check,
+    font='Arial 12',
+    validate='key',
+    validatecommand=check,
 )
 label_result = tkinter.Label(
     text='одноповторный максимум:',

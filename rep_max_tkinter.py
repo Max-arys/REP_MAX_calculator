@@ -61,7 +61,7 @@ button_deadlift = tkinter.Button(
 )
 button_deadlift.config(bd=5, bg='#cccccc', width=15, )
 button_squats = tkinter.Button(
-    text='присед',
+    text='Присед',
     font='Arial 12',
     command=lambda exercise='присед': test_rm(exercise)
 )
